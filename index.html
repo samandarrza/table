@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="select">
+            <input placeholder="First Name" type="text" name="fname" id="fname"> <br>
+            <input placeholder="Last Name" type="text" name="lname" id="lname"> <br>
+            <input placeholder="Age" type="number" name="age" id="age"> <br>
+
+                <button onclick="add()">Add</button>
+                <button onclick="edit()">Edit</button>
+                <button onclick="remove()">Remove</button>
+        </div>
+        <div class="watch">
+            <table id="table" border="1" class="tstyle">
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Age</th>
+                </tr>
+                <tr>
+                    <td>Səməndər</td>
+                    <td>Rzayev</td>
+                    <td>27</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
