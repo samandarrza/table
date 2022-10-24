@@ -1,4 +1,4 @@
-var index, table = document.getElementById('table'); index
+var index, table = document.getElementById('table');
 function check() {
     var isEmpty = false,
         fname = document.getElementById('fname').value,
